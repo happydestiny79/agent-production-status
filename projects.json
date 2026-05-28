@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ufli-phonics",
+    "name": "UFLI Phonics Cartoon Project",
+    "description": "Early literacy support using phonics cartoons and songs",
+    "status": "Active",
+    "phase": "Development",
+    "last_updated": "2026-01-26",
+    "notes": "Phonics cartoons + songs for 3rd grade literacy instruction.",
+    "thread_id": null
+  },
+  {
+    "id": "map-game-osm",
+    "name": "Map Game OSM Pipeline",
+    "description": "OpenStreetMap integration for map-based games",
+    "status": "Active",
+    "phase": "Pipeline Development",
+    "last_updated": "2026-01-25",
+    "notes": "",
+    "thread_id": null
+  },
+  {
+    "id": "vintage-vinyl",
+    "name": "Vintage Vinyl",
+    "description": "Gardenscapes-style match-3 renovation game with vintage record store theme",
+    "status": "Exploration",
+    "phase": "Theme Exploration",
+    "last_updated": "2026-01-24",
+    "notes": "Vintage record store / music venue theme",
+    "thread_id": null
+  },
+  {
+    "id": "genes-rehab",
+    "name": "Gene's Rehab and Resale",
+    "description": "Custom tool for rural house flipping and lending operations",
+    "status": "Active",
+    "phase": "Planning",
+    "last_updated": "2026-01-28",
+    "notes": "High-value project for house flipping + seller financing.",
+    "thread_id": null
+  },
+  {
+    "id": "minecraft-50-states",
+    "name": "Minecraft 50 States Geography",
+    "description": "Minecraft Education project focused on 3rd grade map skills and U.S. states",
+    "status": "New",
+    "phase": "Ideation",
+    "last_updated": "2026-01-28",
+    "notes": "Focus on geography standards (maps, directions, human vs physical features).",
+    "thread_id": null
+  },
+  {
+    "id": "leisure-lake",
+    "name": "Leisure Lake Co-op",
+    "description": "Website and backend modernization for 55+ community",
+    "status": "Paused",
+    "phase": "Research Complete",
+    "last_updated": "2026-01-20",
+    "notes": "Old ASP.NET site identified. Awaiting next steps.",
+    "thread_id": null
+  }
+]
