@@ -21,6 +21,17 @@
             transform: translateY(-2px);
             box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
         }
+        .progress-bar {
+            height: 6px;
+            background-color: #334155;
+            border-radius: 9999px;
+            overflow: hidden;
+        }
+        .progress-fill {
+            height: 100%;
+            background-color: #3b82f6;
+            transition: width 0.3s ease;
+        }
     </style>
 </head>
 <body class="text-slate-200">
@@ -48,7 +59,6 @@
     </div>
 
     <script>
-        // Status color mapping
         const statusColors = {
             "Active": "bg-emerald-500/10 text-emerald-400",
             "Exploration": "bg-amber-500/10 text-amber-400",
@@ -90,6 +100,7 @@
             div.className = 'project-card bg-slate-800 border border-slate-700 rounded-2xl p-6';
 
             const statusClass = statusColors[project.status] || 'bg-slate-500/10 text-slate-400';
+            const progress = project.progress || 0;
 
             let notesHTML = '';
             if (project.notes) {
@@ -110,15 +121,27 @@
                     <span class="status-badge ${statusClass}">${project.status}</span>
                 </div>
                 
-                <div class="space-y-3 text-sm">
+                <div class="space-y-4 text-sm">
+                    <div>
+                        <div class="flex justify-between mb-1.5">
+                            <span class="text-slate-400">Progress</span>
+                            <span class="font-medium">${progress}%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: ${progress}%"></div>
+                        </div>
+                    </div>
+
                     <div class="flex justify-between">
                         <span class="text-slate-400">Current Phase</span>
                         <span class="font-medium">${project.phase}</span>
                     </div>
+                    
                     <div class="flex justify-between">
                         <span class="text-slate-400">Last Updated</span>
                         <span>${new Date(project.last_updated).toLocaleDateString('en-US', {month:'short', day:'numeric', year:'numeric'})}</span>
                     </div>
+                    
                     ${notesHTML}
                 </div>
 
@@ -133,7 +156,6 @@
             return div;
         }
 
-        // Load projects on page load
         loadProjects();
     </script>
 </body>

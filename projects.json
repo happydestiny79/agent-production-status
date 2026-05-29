@@ -5,6 +5,7 @@
     "description": "Early literacy support using phonics cartoons and songs",
     "status": "Active",
     "phase": "Development",
+    "progress": 45,
     "last_updated": "2026-01-26",
     "notes": "Phonics cartoons + songs for 3rd grade literacy instruction.",
     "thread_id": null
@@ -15,6 +16,7 @@
     "description": "OpenStreetMap integration for map-based games",
     "status": "Active",
     "phase": "Pipeline Development",
+    "progress": 60,
     "last_updated": "2026-01-25",
     "notes": "",
     "thread_id": null
@@ -25,6 +27,7 @@
     "description": "Gardenscapes-style match-3 renovation game with vintage record store theme",
     "status": "Exploration",
     "phase": "Theme Exploration",
+    "progress": 25,
     "last_updated": "2026-01-24",
     "notes": "Vintage record store / music venue theme",
     "thread_id": null
@@ -35,6 +38,7 @@
     "description": "Custom tool for rural house flipping and lending operations",
     "status": "Active",
     "phase": "Planning",
+    "progress": 20,
     "last_updated": "2026-01-28",
     "notes": "High-value project for house flipping + seller financing.",
     "thread_id": null
@@ -45,6 +49,7 @@
     "description": "Minecraft Education project focused on 3rd grade map skills and U.S. states",
     "status": "New",
     "phase": "Ideation",
+    "progress": 15,
     "last_updated": "2026-01-28",
     "notes": "Focus on geography standards (maps, directions, human vs physical features).",
     "thread_id": null
@@ -55,6 +60,7 @@
     "description": "Website and backend modernization for 55+ community",
     "status": "Paused",
     "phase": "Research Complete",
+    "progress": 30,
     "last_updated": "2026-01-20",
     "notes": "Old ASP.NET site identified. Awaiting next steps.",
     "thread_id": null
