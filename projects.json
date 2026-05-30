@@ -64,5 +64,27 @@
     "last_updated": "2026-01-20",
     "notes": "Old ASP.NET site identified. Awaiting next steps.",
     "thread_id": null
+  },
+  {
+    "id": "what-kind-of-paradise",
+    "name": "What Kind of Paradise by Janelle Brown",
+    "description": "Game/media adaptation exploration based on the novel",
+    "status": "New",
+    "phase": "Ideation",
+    "progress": 10,
+    "last_updated": "2026-01-28",
+    "notes": "Researching existing adaptations and prototype potential.",
+    "thread_id": null
+  },
+  {
+    "id": "rapid-idea-ai-summer-study",
+    "name": "Rapid Idea and AI Summer Study Plan",
+    "description": "AI learning and skill development planning",
+    "status": "Active",
+    "phase": "Planning",
+    "progress": 35,
+    "last_updated": "2026-01-28",
+    "notes": "",
+    "thread_id": null
   }
 ]
